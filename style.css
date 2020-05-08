@@ -5,9 +5,9 @@
 }
 
 body {
-    background-image: linear-gradient(120deg, #cc9d02, #04a004);
+    background-image: linear-gradient(125deg, #04a004, #cc9d02);
     color: white;
-    font-family: 'Baloo Bhaina 2', cursive;
+    font-family: "Baloo Bhaina 2", cursive;
     min-height: 100vh;
 }
 
@@ -50,7 +50,7 @@ form button:hover {
 }
 
 .todo-list {
-    min-width: 30%;
+    min-width: 40%;
     list-style: none;
 }
 
@@ -97,7 +97,7 @@ form button:hover {
     opacity: 0.5;
 }
 
-.fall {
+.falloff {
     transform: translateY(8rem) rotateZ(20deg);
     opacity: 0;
 }
@@ -124,7 +124,7 @@ select {
 }
 
 .select::after {
-    content: '\25BC';
+    content: "\25BC";
     position: absolute;
     background: #04a004;
     top: 0;
